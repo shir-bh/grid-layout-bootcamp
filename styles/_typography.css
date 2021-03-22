@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC|Source+Sans+Pro");
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2,
+h3,
+blockquote {
+  font-family: "Playfair Display", serif;
+}
+h2 {
+  font-size: 6rem;
+  margin-top: 0;
+}
+h3 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 2rem;
+  color: #555;
+}
+p,
+#mail_submit,
+#mail_input {
+  font-family: "Source Sans Pro", sans-serif;
+}

@@ -1,0 +1,142 @@
+@import url(./_reset.css);
+@import url(./_base.css);
+@import url(./_typography.css);
+
+main.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0px 2px 15px -2px rgba(0, 0, 0, 0.4);
+}
+img {
+  width: 100%;
+  /* max-width: 70%; */
+}
+
+.section_one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.textbox {
+  padding: 8rem 8rem 0;
+  grid-column: 1/2;
+}
+.top_textbox {
+  padding: 0 8rem;
+}
+.top_textbox > h3 {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+.textbox p {
+  margin-top: 5rem;
+}
+.section_two {
+  position: relative;
+  margin-bottom: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.second_textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-column: 2/3;
+}
+.second_textbox img {
+  grid-column: 1/2;
+}
+blockquote {
+  position: absolute;
+  width: 80%;
+  top: 10rem;
+  left: 11rem;
+  height: 14rem;
+  font-size: 3rem;
+  padding: 4rem;
+  background-color: white;
+  box-shadow: 0px 6px 2px 0px rgba(0, 0, 0, 0.4);
+  font-style: italic;
+}
+.section_three {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid #666;
+  margin: 0 8rem;
+}
+
+.third_textbox {
+  grid-column: 5/9;
+  flex-basis: 50%;
+  padding: 2rem 8rem;
+}
+.third_textbox p {
+  margin-top: 0;
+}
+.register_textbox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  grid-column: 1/5;
+  display: flex;
+  padding: 2rem;
+}
+
+.section_four {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+  padding: 8rem;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 40px;
+  background-color: #f2f2f2;
+}
+.box_two {
+  margin: 0 1rem;
+}
+.box_one {
+  margin-right: 3rem;
+}
+.box_three {
+  margin-left: 3rem;
+}
+.box p {
+  margin-top: 2rem;
+}
+.box > img {
+  width: 80px;
+}
+.box:hover {
+  background-color: #666;
+  box-shadow: 0 1rem 2rem #666;
+  transform: scale(1.05);
+}
+.box:hover p {
+  color: white;
+}
+
+#mail_input {
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #555;
+  font-size: 2rem;
+  border: 0;
+  border-bottom: 1px solid black;
+  margin-right: 8px;
+}
+#mail_submit {
+  position: absolute;
+  top: 72px;
+  left: 33rem;
+  width: 150px;
+  height: 40px;
+  font-size: 2rem;
+  background-color: #000;
+  color: white;
+  border: 0;
+}
